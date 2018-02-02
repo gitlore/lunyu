@@ -1,27 +1,12 @@
 {
     "links" : {
         "sidebar" : {
-            "知行-gitlore" : "http://gitlore.com"
+            "知行-gitlore" : "https://gitlore.com"
         }
     },
     "plugins" : [
         "-search",
-        "-livereload",
-        "duoshuo",
-        "gitlore",
-        "donate"
-    ],
-    "pluginsConfig": {
-        "donate": {
-          "wechat": "http://img.gitlore.com/wechat.jpg",
-          "alipay": "http://img.gitlore.com/alipay.jpg",
-          "title": "如果喜欢，请打赏",
-          "button": "打赏",
-          "alipayText": "支付宝打赏",
-          "wechatText": "微信打赏"
-        },
-        "duoshuo" : {
-            "short_name" : "gitlore"
-        }
-    }
+        "-lunr",
+        "-livereload"
+    ]
 }
